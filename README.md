@@ -4,7 +4,7 @@ This is an example app that supports CSS and CSS Modules via `.css` and `.scss` 
 
 Hot-reloading works and CSS is prefetched in development mode, so you won't have a FOUC (Flash of Unstyled Content).
 
-All configuration lives in `./webpack`. This is a little more sophisticated setup than [example-react-hot-loader](https://github.com/staylor/example-react-hot-loader), because the server code has to compiled before the Express server is started. Babel can transpile the JS, but the CSS imports have to parsed by Webpack before the server runs. You can see what happens in `./cli/dev`.
+All configuration lives in `./webpack`. This is a little more sophisticated setup than [example-react-hot-loader](https://github.com/staylor/example-react-hot-loader), because the server code has to be compiled before the Express server is started. Babel can transpile the JS, but the CSS imports have to parsed by Webpack before the server runs. You can see what happens in `./cli/dev`.
 
 ## Install
 
