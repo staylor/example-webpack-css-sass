@@ -1,6 +1,6 @@
 # Example Express App using CSS/SCSS via Webpack
 
-This is an example app that supports CSS and CSS Modules via `.css` and `.scss` imports. You should probably just be using CSS-in-JS (Emotion 9), but this might save you some trouble.
+This is an example app that supports CSS and CSS Modules via `.css` and `.scss` imports. You should probably just be using CSS-in-JS (Emotion 9), but this might save you some trouble. Uses latest versions of Babel 7, Webpack 4+, and React 16.7.
 
 Hot-reloading works and CSS is prefetched in development mode, so you won't have a FOUC (Flash of Unstyled Content).
 
