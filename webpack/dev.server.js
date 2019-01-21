@@ -40,11 +40,6 @@ const config = {
         loader: 'babel-loader',
         options: {
           cacheDirectory: true,
-          env: {
-            development: {
-              plugins: ['react-hot-loader/babel'],
-            },
-          },
         },
       },
     ],
