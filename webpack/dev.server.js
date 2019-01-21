@@ -44,7 +44,7 @@ const config = {
       },
     ],
   },
-  externals: [webpackNodeExternals()],
+  externals: webpackNodeExternals(),
   plugins: [
     new WebpackBar({ name: 'Dev Server' }),
     new MiniCssExtractPlugin({

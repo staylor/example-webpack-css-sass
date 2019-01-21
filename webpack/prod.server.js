@@ -41,7 +41,7 @@ const config = {
       },
     ],
   },
-  externals: [webpackNodeExternals()],
+  externals: webpackNodeExternals(),
   plugins: [
     new WebpackBar({ name: 'Server' }),
     new HashOutput({
